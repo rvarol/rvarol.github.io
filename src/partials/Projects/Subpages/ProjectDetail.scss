@@ -1,0 +1,15 @@
+.project_detail_header {
+    width: 95%;
+    margin: 2em auto;
+
+    .project_detail_title {
+        font-weight: 700;
+        font-size: 2em;
+        float: left;
+    }
+
+    svg {
+        font-size: 2em;
+        float: right;
+    }
+}

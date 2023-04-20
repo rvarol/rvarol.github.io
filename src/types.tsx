@@ -1,8 +1,10 @@
 import React from 'react';
 
 export type ProjectItem = {
+  label: string,
   title: string,
   description: string,
+  keywords: string[],
   image_url: string,
 }
 
@@ -24,7 +26,8 @@ export type FeaturedPublication = {
   doi: string,
   link: string,
   citation: string,
-  journal_link: string
+  journal_link: string,
+  listed: boolean
 }
 
 export type FeaturedPublicationPanelProps = {

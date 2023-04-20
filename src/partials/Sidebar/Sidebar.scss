@@ -12,12 +12,12 @@
     @include themed() {
       @include ltr {
         margin-right: 4px;
-        border-right: t('border');
+        //border-right: t('border');
       }
 
       @include rtl {
         margin-left: 4px;
-        border-left: t('border');
+        //border-left: t('border');
       }
     }
   }
@@ -156,7 +156,7 @@
 }
 
 #sidebar-summary {
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: justify;
 }

@@ -19,14 +19,41 @@
         "Sahin Kaya Ozdemir",
         "Huseyin Uvet"
       ],
-      "journal": "Nature Communication",
-      "date": "29 November 2022",
+      "journal": "Nature Communications",
+      "date": "Nov 29th, 2022",
       "abstract": "Accurate assessment of cell stiffness distribution is essential due to the critical role of cell mechanobiology in regulation of vital cellular processes like proliferation, adhesion, migration, and motility. Stiffness provides critical information in understanding onset and progress of various diseases, including metastasis and differentiation of cancer. Atomic force microscopy and optical trapping set the gold standard in stiffness measurements. However, their widespread use has been hampered with long processing times, unreliable contact point determination, physical damage to cells, and unsuitability for multiple cell analysis. Here, we demonstrate a simple, fast, label-free, and high-resolution technique using acoustic stimulation and holographic imaging to reconstruct stiffness maps of single cells. We used this acousto-holographic method to determine stiffness maps of HCT116 and CTC-mimicking HCT116 cells and differentiate between them. Our system would enable widespread use of whole-cell stiffness measurements in clinical and research settings for cancer studies, disease modeling, drug testing, and diagnostics.",
       "image_url": "nature_comms.png",
-      "doi": "",
-      "link": "",
-      "citation": "",
-      "journal_link": ""
+      "doi": "https://doi.org/10.1038/s41467-022-35075-x",
+      "link": "https://www.nature.com/articles/s41467-022-35075-x",
+      "citation": "Varol, Rahmetullah, et al. \"Acousto-holographic reconstruction of whole-cell stiffness maps.\" Nature communications 13.1 (2022): 7351.",
+      "journal_link": "https://www.nature.com/ncomms/",
+      "listed": true
+    },
+    {
+      "title": "Machine Learning Approach on High Risk Treadmill Exercise Test to Predict Obstructive Coronary Artery Disease by using P, QRS, and T waves’ Features",
+      "authors": [
+        "Abdurrahim Yilmaz",
+        "Mert İlker Hayıroğlu",
+        "Serkan Salturk",
+        "Levent Pay",
+        "Ali Anil Demircali",
+        "Cahit Coşkun",
+        "Rahmetullah Varol",
+        "Ozan Tezen",
+        "Semih Eren",
+        "Tuğba Çetin",
+        "Ahmet İlker Tekkeşin",
+        "Huseyin Uvet"
+      ],
+      "journal": "Current Problems in Cardiology",
+      "date": "Nov 3rd, 2022",
+      "abstract": "Treadmill Exercise Test (TET) results and patients' clinical symptoms influence cardiologists' decision to perform Coronary Angiography (CAG) which is an invasive procedure. Since TET has high false positive rates, it can cause an unnecessary invasive CAG. Our primary objective was to develop a machine learning model capable of optimizing TET performance based on electrocardiography (ECG) waves characteristics and signals. TET reports from 294 patients who underwent CAG following high risk TET were collected and categorized into those with critical CAD and others. The signal was converted to time series format. A dataset containing the P, QRS, and T wave times and amplitudes was created. Using this dataset, 5 machine learning algorithms were trained with 5-fold cross validation. All these models were then compared to the performance of cardiologists on V5 signal. The results from 5 machine learning models were clearly superior to the cardiologists' V5 signal performance (P < 0.0001). In addition, the XGBoost model, with an accuracy of 80.92±6.42% and an area under the curve (AUC) of 0.78±0.06, was the most successful model. Machine learning models can produce high-performance diagnoses using the V5 signal markers only as it does not require any clinical markers obtained from TET reports. This can lead to significant contributions to improving clinical prediction in non-invasive methods.",
+      "image_url": "cardio.png",
+      "doi": "https://doi.org/10.1016/j.cpcardiol.2022.101482",
+      "link": "https://www.sciencedirect.com/science/article/abs/pii/S0146280622003796",
+      "citation": "Yilmaz, Abdurrahim, et al. \"Machine Learning Approach on High Risk Treadmill Exercise Test to Predict Obstructive Coronary Artery Disease by using P, QRS, and T waves’ Features.\" Current Problems in Cardiology (2022): 101482.",
+      "journal_link": "https://www.sciencedirect.com/journal/current-problems-in-cardiology",
+      "listed": true
     },
     {
       "title": "Interferometric Measurement of TGF-β Induced Epithelial-Mesenchymal Transition of Tumor Cells",
@@ -38,39 +65,130 @@
       "journal": "Applied Sciences",
       "date": "20 December 2020",
       "abstract": "A three-dimensional profile reconstruction of live cells in dynamic cell cultures is a challenging problem due to the highly scattering nature of cell mediums. Furthermore, it is an interesting problem since these cultures present the optimal in vitro conditions that most closely resemble the cells’ natural conditions. In this paper, we report a holographic method used for imaging during the process of treatment of dynamic cell cultures with transforming growth factor beta (TGF-β) and the subsequent epithelial-mesenchymal transition (EMT). The imaging of dynamic cell cultures presents many challenges for holographic techniques due to the highly scattering and high speed nature of the environment. Here we report the algorithmic workflow we used for decreasing the imaging noise due to the presence of cell medium and achieving high speed reconstruction rates in real time. We also report the prominent morphological features we extracted from the obtained depth maps throughout the experiment. We conducted experiments on four different cell lines: ONCO-DG1, HCT-116, MDA-MB-231, and HUVEC. We observed the EMT process throughout a 48 h period after treatment with TGF-β with 6 h intervals for each sample. We show some examples of the reconstructed depth maps of tumor cells during the EMT phase. From these depth maps we extract some morphological parameters and report how they change after the EMT process is completed. The obtained results indicate that the proposed method presents certain advantages from an optical perspective particularly for applications where a dynamical medium is present. These advantages are lower signal-to-noise ratio (SNR) values and a simple setup compared to the setups used in similar studies. Future studies on this application could lead to the development of a model for the EMT process and its effects on cell to cell interactions.",
-      "image_url": "nature_comms.png",
+      "image_url": "applsci.png",
       "doi": "https://doi.org/10.3390/app10249107",
       "link": "https://www.mdpi.com/2076-3417/10/24/9107/",
       "citation": "Varol, Rahmetullah, Gokhan Bora Esmer, and Huseyin Uvet. \"Interferometric Measurement of TGF-β Induced Epithelial-Mesenchymal Transition of Tumor Cells.\" Applied Sciences 10.24 (2020): 9107.",
-      "journal_link": "https://www.mdpi.com/journal/applsci"
+      "journal_link": "https://www.mdpi.com/journal/applsci",
+      "listed": true
     },
     {
-      "title": "",
+      "title": "Longitudinal Motion Modeling and Experimental Verification of a Microrobot Subject to Liquid Laminar Flow",
       "authors": [
-        ""
+        "Ali Anil Demircali",
+        "Rahmetullah Varol",
+        "Gizem Aydemir",
+        "Eda Nur Saruhan",
+        "Kadir Erkan",
+        "Huseyin Uvet"
       ],
-      "journal": "",
-      "date": "",
-      "abstract": "",
-      "image_url": "nature_comms.png",
-      "doi": "",
-      "link": "",
-      "citation": "",
-      "journal_link": ""
+      "journal": "IEEE/ASME Transactions on Mechatronics",
+      "date": "Jan 5th, 2021",
+      "abstract": "This article presents an untethered magnetic manipulation technique for controlling a microrobot position under high rate laminar flows up to 4.5 mL/min. An increase in flow rate exponentially increases the drag force on the microrobot and negatively impacts its positioning accuracy. Increasing the longitudinal force generated by the microrobot’s driving apparatus helps in overcoming the disruptive effects of the fluid flow and increases longitudinal motion stability. To this end, we propose a magnetic configuration with two ring-shaped magnets, one above and the other below the microfluidic channel. This configuration causes the magnetic field lines emanating from the ring-shaped magnets to converge on both sides of the microrobot. Thus, the magnetic trapping forces that hold the microrobot in position are increased. To the best of our knowledge, no prior study exists on investigating the longitudinal motion for high flow velocities ( > 5 mm/s). Investigating the longitudinal forces (along the x -axis) that affect a magnetically driven microrobot is a novel research topic that has many potential application areas, such as cell research, micromanipulation, and lab-on-a-chip systems. The microrobot’s dynamical motion is modeled as a second-order system, and using this model as a guideline, we demonstrate the ability of a microrobot in a square-shaped microfluidic channel ( 900 ×900μm2 ) to follow a linear trajectory with a relative velocity up to 132.6 mm/s . A straight and longitudinal trajectory of 4000 μm has been successfully followed in the same and opposite directions to the flow for different flow rates (1–4.5 mL/min) and different robot speeds (10–50 mm/s).",
+      "image_url": "tmech.png",
+      "doi": "https://doi.org/10.1109/TMECH.2020.3049069",
+      "link": "https://ieeexplore.ieee.org/document/9314083",
+      "citation": "Demircali, Ali Anil, et al. \"Longitudinal motion modeling and experimental verification of a microrobot subject to liquid laminar flow.\" IEEE/ASME Transactions on Mechatronics 26.6 (2021): 2956-2966.",
+      "journal_link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3516",
+      "listed": true
     },
     {
-      "title": "",
+      "title": "Deep convolutional neural networks for onychomycosis detection using microscopic images with KOH examination",
       "authors": [
-        ""
+        "Abdurrahim Yilmaz",
+        "Fatih Göktay",
+        "Rahmetullah Varol",
+        "Gulsum Gencoglan",
+        "Huseyin Uvet"
       ],
-      "journal": "",
-      "date": "",
-      "abstract": "",
-      "image_url": "nature_comms.png",
-      "doi": "",
-      "link": "",
-      "citation": "",
-      "journal_link": ""
+      "journal": "Mycoses",
+      "date": "Jul 16th, 2022",
+      "abstract": "One hundred sixty microscopic full field photographs containing the fungal element, obtained from patients with onychomycosis, and 297 microscopic full field photographs containing dissolved keratin obtained from normal nails were collected. Smaller patches containing fungi (n = 1835) and keratin (n = 5238) were extracted from these full field images. In order to detect fungus and keratin, VGG16 and InceptionV3 models were developed by the use of these patches. The diagnostic performance of models was compared with 16 dermatologists by using 200 test patches.",
+      "image_url": "mycoses.png",
+      "doi": "https://doi.org/10.1111/myc.13498",
+      "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/myc.13498",
+      "citation": "Yilmaz, Abdurrahim, et al. \"Deep convolutional neural networks for onychomycosis detection using microscopic images with KOH examination.\" Mycoses 65.12 (2022): 1119-1126.",
+      "journal_link": "https://onlinelibrary.wiley.com/journal/14390507",
+      "listed": true
+    },
+    {
+      "title": "MobileSkin: Classification of Skin Lesion Images Acquired Using Mobile Phone-Attached Hand-Held Dermoscopes",
+      "authors": [
+        "Abdurrahim Yilmaz",
+        "Gulsum Gencoglan",
+        "Rahmetullah Varol",
+        "Ali Anil Demircali",
+        "Meysam Keshavarz",
+        "Huseyin Uvet"
+      ],
+      "journal": "Journal of Clinical Medicine",
+      "date": "Jul 19th, 2022",
+      "abstract": "Dermoscopy is the visual examination of the skin under a polarized or non-polarized light source. By using dermoscopic equipment, many lesion patterns that are invisible under visible light can be clearly distinguished. Thus, more accurate decisions can be made regarding the treatment of skin lesions. The use of images collected from a dermoscope has both increased the performance of human examiners and allowed the development of deep learning models. The availability of large-scale dermoscopic datasets has allowed the development of deep learning models that can classify skin lesions with high accuracy. However, most dermoscopic datasets contain images that were collected from digital dermoscopic devices, as these devices are frequently used for clinical examination. However, dermatologists also often use non-digital hand-held (optomechanical) dermoscopes. This study presents a dataset consisting of dermoscopic images taken using a mobile phone-attached hand-held dermoscope. Four deep learning models based on the MobileNetV1, MobileNetV2, NASNetMobile, and Xception architectures have been developed to classify eight different lesion types using this dataset. The number of images in the dataset was increased with different data augmentation methods. The models were initialized with weights that were pre-trained on the ImageNet dataset, and then they were further fine-tuned using the presented dataset. The most successful models on the unseen test data, MobileNetV2 and Xception, had performances of 89.18% and 89.64%. The results were evaluated with the 5-fold cross-validation method and compared. Our method allows for automated examination of dermoscopic images taken with mobile phone-attached hand-held dermoscopes.",
+      "image_url": "jcm.png",
+      "doi": "https://doi.org/10.3390/jcm11175102",
+      "link": "https://www.mdpi.com/2077-0383/11/17/5102",
+      "citation": "Yilmaz, Abdurrahim, et al. \"MobileSkin: Classification of skin lesion images acquired using mobile phone-attached hand-held dermoscopes.\" Journal of Clinical Medicine 11.17 (2022): 5102.",
+      "journal_link": "https://www.mdpi.com/journal/jcm",
+      "listed": true
+    },
+    {
+      "title": "Untethered Microrobot Motion Mechanism With Increased Longitudinal Force",
+      "authors": [
+        "Ali Anil Demircali",
+        "Rahmetullah Varol",
+        "Kadir Erkan",
+        "Huseyin Uvet"
+      ],
+      "journal": "Journal of Mechanisms and Robotics",
+      "date": "May 31st, 2021",
+      "abstract": "The importance of an untethered microrobotic platform that can operate on high flowrate microfluidic channels for in vitro applications is increasing rapidly. This article presents a method to manipulate a microrobot in a fluidic chip when high flowrates (4 ml/min, 82.304 mm/s) are applied. This method is based on a novel permanent magnet-based diamagnetic levitation configuration. This configuration includes a thin layer of pyrolytic graphite, which is placed just below the microrobot. In this way, microrobot stability and manipulation capability are increased. Also, we aim to increase the longitudinal forces imposed on the microrobot to withstand the drag force proportional to the flowrate. Hence, magnetic field lines are generated more linearly around the microrobot by a different combination of permanent magnets. The proposed magnetic configuration, named “KERKAN configuration,” significantly improves the microrobot’s longitudinal forces. In this configuration, two different ring-shaped ferromagnetic magnets are used. One of the magnets has a smaller diameter than the other magnet. A combination of one smaller and one bigger magnet is placed above and below the microrobot. To validate the advantages of this configuration, analytical and simulation studies are conducted. Their results are then compared with experimental results. Experimental results are on par with analytical and simulation studies. KERKAN configuration has a lower displacement than the next best configuration at the highest flowrate we applied (relatively 3301 μm, %21.8).",
+      "image_url": "jmr.png",
+      "doi": "https://doi.org/10.1115/1.4050468",
+      "link": "https://asmedigitalcollection.asme.org/mechanismsrobotics/article-abstract/13/6/061005/1103439/Untethered-Microrobot-Motion-Mechanism-With",
+      "citation": "Demircali, Ali Anil, et al. \"Untethered Microrobot Motion Mechanism With Increased Longitudinal Force.\" Journal of Mechanisms and Robotics 13.6 (2021).",
+      "journal_link": "https://asmedigitalcollection.asme.org/mechanismsrobotics",
+      "listed": true
+    },
+    {
+      "title": "Microfluidic wound scratching platform based on an untethered microrobot with magnetic actuation",
+      "authors": [
+        "Abdurrahim Yilmaz",
+        "Zeynep Karavelioglu",
+        "Gizem Aydemir",
+        "Ali Anil Demircali",
+        "Rahmetullah Varol",
+        "Ali Kosar",
+        "Huseyin Uvet"
+      ],
+      "journal": "Sensors and Actuators B: Chemical",
+      "date": "Sep 15th, 2022",
+      "abstract": "Cell migration is closely associated with various pathological conditions such as tumor invasion and metastasis as well as cell proliferation. The in vitro wound healing assay involves a simple and affordable technique and is used to examine the migration abilities of cells in a wound area created on confluent cell culture. Although this technique is easy to implement, it is not suitable for microfluidic chips. Microfluidic systems offer advantages such as examining the microenvironment of the cells and performing an analysis closer to the living system in a continuous flow setting. However, they are not compatible with the classical wound healing assay since they are closed systems, and their small channels are not suitable for wound creating via a micropipette tip. This work presents a functional system, which can be used to create wounds in a microfluidic platform without causing any negative effects on the cells and requiring the use of any chemicals. In this system, an untethered magnetic microrobot, which can be manipulated in 4 degrees of freedom (DOF) to create wounds with uniform sizes and different shapes within a closed microfluidic system was used. In addition, the effect of different wound geometries on wound healing was investigated. According to the results, triangle-shaped wound healed the slowest, while the plus-shaped wound healed the fastest. This study could open new lanes in the use of microrobots in lab-on-a-chip devices and can be extended to 3D cell cultures in the near future.",
+      "image_url": "loc.png",
+      "doi": "https://doi.org/10.1016/j.snb.2022.132643",
+      "link": "https://www.sciencedirect.com/science/article/abs/pii/S0925400522012862",
+      "citation": "Yilmaz, Abdurrahim, et al. \"Microfluidic wound scratching platform based on an untethered microrobot with magnetic actuation.\" Sensors and Actuators B: Chemical 373 (2022): 132643.",
+      "journal_link": "https://www.sciencedirect.com/journal/sensors-and-actuators-b-chemical",
+      "listed": true
+    },
+    {
+      "title": "Micro-UFO (Untethered Floating Object): A Highly Accurate Microrobot Manipulation Technique",
+      "authors": [
+        "Hüseyin Uvet",
+        "Ali Anil Demircali",
+        "Yusuf Kahraman",
+        "Rahmetullah Varol",
+        "Tunc Kose",
+        "Kadir Erkan"
+      ],
+      "journal": "Micromachines",
+      "date": "Feb 2nd, 2018",
+      "abstract": "A new microrobot manipulation technique with high precision (nano level) positional accuracy to move in a liquid environment with diamagnetic levitation is presented. Untethered manipulation of microrobots by means of externally applied magnetic forces has been emerging as a promising field of research, particularly due to its potential for medical and biological applications. The purpose of the presented method is to eliminate friction force between the surface of the substrate and microrobot. In an effort to achieve high accuracy motion, required magnetic force for the levitation of the microrobot was determined by finite element method (FEM) simulations in COMSOL (version 5.3, COMSOL Inc., Stockholm, Sweden) and verified by experimental results. According to position of the lifter magnet, the levitation height of the microrobot in the liquid was found analytically, and compared with the experimental results head-to-head. The stable working range of the microrobot is between 30 µm to 330 µm, and it was confirmed in both simulations and experimental results. It can follow the given trajectory with high accuracy (<1 µm error avg.) at varied speeds and levitation heights. Due to the nano-level positioning accuracy, desired locomotion can be achieved in pre-specified trajectories (sinusoidal or circular). During its locomotion, phase difference between lifter magnet and carrier magnet has been observed, and relation with drag force effect has been discussed. Without using strong electromagnets or bulky permanent magnets, our manipulation approach can move the microrobot in three dimensions in a liquid environment.",
+      "image_url": "micromachines.png",
+      "doi": "https://doi.org/10.3390/mi9030126",
+      "link": "https://www.mdpi.com/2072-666X/9/3/126",
+      "citation": "Uvet, Hüseyin, et al. \"Micro-UFO (untethered floating object): A highly accurate microrobot manipulation technique.\" Micromachines 9.3 (2018): 126.",
+      "journal_link": "https://www.mdpi.com/journal/micromachines",
+      "listed": true
     }
   ]
 }

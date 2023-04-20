@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <div className="wrapper">
         <aside className="wrapper__sidebar">
-          <Sidebar tabChangeHandler={setActiveTab}/>
+          <Sidebar tabChangeHandler={setActiveTab} />
         </aside>
         <div className="wrapper__main">
           <div className='main-scrollable'>
@@ -33,13 +33,13 @@ function App() {
 
 function getMainContent(tab: string) {
   if (tab === 'projects') {
-    return <Projects/>
+    return <Projects />
   } else if (tab === 'publications') {
-    return <Publications/>
+    return <Publications />
   } else if (tab === 'experience') {
-    return <Experience/>
+    return <Experience />
   } else if (tab === 'contact') {
-    return <Contact/>
+    return <Contact />
   } else {
     return <>Content not found</>
   }

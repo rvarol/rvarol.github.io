@@ -1,0 +1,64 @@
+{
+    "experiences": [
+        {
+            "logo_url": "bw_logo.png",
+            "position": "Software Engineer",
+            "company": "Universität der Bundeswehr München",
+            "time_span": "February 2021 – Present",
+            "location": "Munich, Germany",
+            "items": [
+                "Development of 3D feature extraction, cellular segmentation and real-time cell tracking algorithms for 3D point clouds",
+                "Development of a web-based user interface for 3D data visualization",
+                "Development of virtual staining tools for better visualization of 3D point clouds"
+            ],
+            "expanded_items": [
+                "Development of 3D feature extraction, cellular segmentation and real-time cell tracking algorithms for 3D point clouds",
+                "Development of a web-based user interface for 3D data visualization",
+                "Development of virtual staining tools for better visualization of 3D point clouds"
+            ]
+        },
+        {
+            "logo_url": "biatech_logo.png",
+            "position": "Software Engineer",
+            "company": "BiaTech Medical Devices",
+            "time_span": "February 2021 – Present",
+            "location": "Istanbul, Turkey",
+            "items": [
+                "Development of a Programmable Logic Controller (PLC) and associated electrical control unit",
+                "Development of a control user interface",
+                "Medical CE certification, IEC 62304 certification and ISO 13485 certification"
+            ],
+            "expanded_items": [
+                "Development of a Programmable Logic Controller (PLC) and associated electrical control unit",
+                "Development of a control user interface",
+                "Medical CE certification, IEC 62304 certification and ISO 13485 certification"
+            ]
+        },
+        {
+            "logo_url": "taa_logo.png",
+            "position": "Software Engineer",
+            "company": "Turkish Airlines Aviation Academy",
+            "time_span": "February 2021 – Present",
+            "location": "Istanbul, Turkey",
+            "items": [
+                "Development of 3D visualization software for flight training courses in Unity"
+            ],
+            "expanded_items": [
+                "Development of 3D visualization software for flight training courses in Unity"
+            ]
+        },
+        {
+            "logo_url": "taa_logo.png",
+            "position": "",
+            "company": "",
+            "time_span": "",
+            "location": "",
+            "items": [
+                ""
+            ],
+            "expanded_items": [
+                ""
+            ]
+        }
+    ]
+}

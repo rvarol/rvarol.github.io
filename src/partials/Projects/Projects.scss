@@ -6,7 +6,7 @@
   padding-right: 0px;
   padding-bottom: 0px;
   text-align: left;
-  
+
   &__content-wrapper {
     width: 67.5%;
     float: right;
@@ -55,7 +55,7 @@
         max-width: none;
         padding: 0;
       }
-    
+
 
       @include desktop_and_print {
         margin-right: auto;

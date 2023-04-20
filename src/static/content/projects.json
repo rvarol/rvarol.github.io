@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "label": "acousto_holography",
+            "title": "Cell Stiffness Measurement with Acousto-Holographic Microscope",
+            "description": "In this project we developed an acousto-optical methodology for measuring the 2D stiffness distribution over a cell membrane. We applied a periodic acoustic pressure within an enclosure and measured the displacement over the membrane in repsonse using a Mach-Zehnder holographic imaging setup. Correlation of the acoustic pressure with displacement values gave us the stiffness distribution. This was the first demonstration of this principle and was much more superior to previous methods (such as atomic force microscopy) in terms of the speed with which we could map the distribution of cellular stiffness over the cellular membrane. I was responsible for the development of the optical imaging setup and the data analysis software.",
+            "keywords": [
+                "cell stiffness",
+                "holography",
+                "acoustics"
+            ],
+            "image_url": "acousto_holography.png",
+            "listed": true
+        },
+        {
+            "label": "microrobotic_wound_scratching",
+            "title": "Development of a microrobotic platform for on-chip wound scratching",
+            "description": "Development of a microrobotic platform for on-chip wound scratching",
+            "keywords": [
+                "microrobotics",
+                "wound scratching",
+                "lab-on-a-chip"
+            ],
+            "image_url": "mrobot_wound.png",
+            "listed": true
+        },
+        {
+            "label": "microrobotics_in_flow",
+            "title": "Development of a microrobotic platform for high-rate flow environments",
+            "description": "Development of a microrobotic platform for high-rate flow environments",
+            "keywords": [
+                "microrobotics",
+                "lab-on-a-chip",
+                "visual feedback control"
+            ],
+            "image_url": "mrobot_flow.png",
+            "listed": true
+        },
+        {
+            "label": "onychomycosis",
+            "title": "Development of an onychomycosis detection platform",
+            "description": "Development of an onychomycosis detection platform",
+            "keywords": [
+                "microscopy",
+                "onychomycosis",
+                "image detection"
+            ],
+            "image_url": "mycoses.png",
+            "listed": true
+        },
+        {
+            "label": "effort_test",
+            "title": "Detection of heart failure risk from effort test results",
+            "description": "Detection of heart failure risk from effort test results",
+            "keywords": [
+                "heart failure",
+                "effort test",
+                "health-ai"
+            ],
+            "image_url": "cardio.png",
+            "listed": true
+        }
+    ]
+}

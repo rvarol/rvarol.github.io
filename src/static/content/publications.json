@@ -1,0 +1,76 @@
+{
+  "publications": [
+    {
+      "title": "Acousto-holographic reconstruction of whole-cell stiffness maps",
+      "authors": [
+        "Rahmetullah Varol",
+        "Zeynep Karavelioglu",
+        "Sevde Omeroglu",
+        "Gizem Aydemir",
+        "Aslihan Karadag",
+        "Hanife Ecenur Meco",
+        "Ali Anil Demircali",
+        "Abdurrahim Yilmaz",
+        "Gizem Calibasi Kocal",
+        "Gulsum Gencoglan",
+        "Muhammed Enes Oruc",
+        "Gokhan Bora Esmer",
+        "Yasemin Basbinar",
+        "Sahin Kaya Ozdemir",
+        "Huseyin Uvet"
+      ],
+      "journal": "Nature Communication",
+      "date": "29 November 2022",
+      "abstract": "Accurate assessment of cell stiffness distribution is essential due to the critical role of cell mechanobiology in regulation of vital cellular processes like proliferation, adhesion, migration, and motility. Stiffness provides critical information in understanding onset and progress of various diseases, including metastasis and differentiation of cancer. Atomic force microscopy and optical trapping set the gold standard in stiffness measurements. However, their widespread use has been hampered with long processing times, unreliable contact point determination, physical damage to cells, and unsuitability for multiple cell analysis. Here, we demonstrate a simple, fast, label-free, and high-resolution technique using acoustic stimulation and holographic imaging to reconstruct stiffness maps of single cells. We used this acousto-holographic method to determine stiffness maps of HCT116 and CTC-mimicking HCT116 cells and differentiate between them. Our system would enable widespread use of whole-cell stiffness measurements in clinical and research settings for cancer studies, disease modeling, drug testing, and diagnostics.",
+      "image_url": "nature_comms.png",
+      "doi": "",
+      "link": "",
+      "citation": "",
+      "journal_link": ""
+    },
+    {
+      "title": "Interferometric Measurement of TGF-β Induced Epithelial-Mesenchymal Transition of Tumor Cells",
+      "authors": [
+        "Rahmetullah Varol",
+        "Gokhan Bora Esmer",
+        "Huseyin Uvet"
+      ],
+      "journal": "Applied Sciences",
+      "date": "20 December 2020",
+      "abstract": "A three-dimensional profile reconstruction of live cells in dynamic cell cultures is a challenging problem due to the highly scattering nature of cell mediums. Furthermore, it is an interesting problem since these cultures present the optimal in vitro conditions that most closely resemble the cells’ natural conditions. In this paper, we report a holographic method used for imaging during the process of treatment of dynamic cell cultures with transforming growth factor beta (TGF-β) and the subsequent epithelial-mesenchymal transition (EMT). The imaging of dynamic cell cultures presents many challenges for holographic techniques due to the highly scattering and high speed nature of the environment. Here we report the algorithmic workflow we used for decreasing the imaging noise due to the presence of cell medium and achieving high speed reconstruction rates in real time. We also report the prominent morphological features we extracted from the obtained depth maps throughout the experiment. We conducted experiments on four different cell lines: ONCO-DG1, HCT-116, MDA-MB-231, and HUVEC. We observed the EMT process throughout a 48 h period after treatment with TGF-β with 6 h intervals for each sample. We show some examples of the reconstructed depth maps of tumor cells during the EMT phase. From these depth maps we extract some morphological parameters and report how they change after the EMT process is completed. The obtained results indicate that the proposed method presents certain advantages from an optical perspective particularly for applications where a dynamical medium is present. These advantages are lower signal-to-noise ratio (SNR) values and a simple setup compared to the setups used in similar studies. Future studies on this application could lead to the development of a model for the EMT process and its effects on cell to cell interactions.",
+      "image_url": "nature_comms.png",
+      "doi": "https://doi.org/10.3390/app10249107",
+      "link": "https://www.mdpi.com/2076-3417/10/24/9107/",
+      "citation": "Varol, Rahmetullah, Gokhan Bora Esmer, and Huseyin Uvet. \"Interferometric Measurement of TGF-β Induced Epithelial-Mesenchymal Transition of Tumor Cells.\" Applied Sciences 10.24 (2020): 9107.",
+      "journal_link": "https://www.mdpi.com/journal/applsci"
+    },
+    {
+      "title": "",
+      "authors": [
+        ""
+      ],
+      "journal": "",
+      "date": "",
+      "abstract": "",
+      "image_url": "nature_comms.png",
+      "doi": "",
+      "link": "",
+      "citation": "",
+      "journal_link": ""
+    },
+    {
+      "title": "",
+      "authors": [
+        ""
+      ],
+      "journal": "",
+      "date": "",
+      "abstract": "",
+      "image_url": "nature_comms.png",
+      "doi": "",
+      "link": "",
+      "citation": "",
+      "journal_link": ""
+    }
+  ]
+}

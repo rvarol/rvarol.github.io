@@ -1,0 +1,162 @@
+@import '../../modules.scss';
+
+.sidebar {
+
+  @include desktop_and_print {
+    z-index: 2;
+    height: 98vh;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+
+    @include themed() {
+      @include ltr {
+        margin-right: 4px;
+        border-right: t('border');
+      }
+
+      @include rtl {
+        margin-left: 4px;
+        border-left: t('border');
+      }
+    }
+  }
+
+  &__content {
+    @include desktop_and_print {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: center;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+
+    text-align: center;
+
+    &-item {
+      display: inline;
+      padding: 0 4px;
+      line-height: 0;
+    }
+  }
+
+  &__introduction {
+    top: 40%;
+    text-align: center;
+
+    &-description {
+      margin: 0 1em;
+    }
+
+    &-profileimage {
+      width: 250px;
+      border-radius: 0.25em;
+    }
+
+    &-title {
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 1;
+      margin: 1em;
+
+      a {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+
+.footer {
+  $font-size-footer: 0.9rem;
+
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 0px;
+  flex: 0;
+  position: relative;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    font-size: $font-size-footer;
+
+    &:not(:first-of-type)::before {
+      content: '\00B7';
+      padding: 4px;
+    }
+
+    a {
+      font-size: $font-size-footer;
+    }
+  }
+
+  &__sidebar {
+    display: none;
+
+    @include desktop_and_print {
+      display: inline-block;
+    }
+  }
+
+  &__base {
+    @include desktop_and_print {
+      display: none;
+    }
+  }
+}
+
+.sidebar__navigation-bar {
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #ddd;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+
+  svg {
+    width: 1em;
+    font-size: 1.2rem;
+    margin-right: 0.5em;
+  }
+
+  li {
+    list-style: none;
+    display: block;
+    padding: 1em 1em 1em 2em;
+    background-color: #fff;
+    border-width: 0 0 0 0.5em;
+    border-color: #ddd;
+    border-style: solid;
+    text-align: left;
+    font-weight: 700;
+    margin: 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+
+  li.active {
+    color: red;
+    border-color: red;
+  }
+}
+
+#sidebar-summary {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}

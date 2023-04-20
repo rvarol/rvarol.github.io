@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4f2375a.css",
+    "main.js": "/static/js/main.22bf9fa3.js",
+    "static/js/787.75355ea0.chunk.js": "/static/js/787.75355ea0.chunk.js",
+    "static/media/rv.png": "/static/media/rv.f3930edc2be50fe93499.png",
+    "static/media/publication1.png": "/static/media/publication1.0f274d0a5ba5351bdeb3.png",
+    "static/media/project1.png": "/static/media/project1.51aff71c1f1832042634.png",
+    "static/media/taa_logo.png": "/static/media/taa_logo.a120738674f1eb8271ec.png",
+    "static/media/biatech_logo.png": "/static/media/biatech_logo.7c7df26bf17ffac75171.png",
+    "static/media/bw_logo.png": "/static/media/bw_logo.5a7252cad7980e87f409.png",
+    "index.html": "/index.html",
+    "main.e4f2375a.css.map": "/static/css/main.e4f2375a.css.map",
+    "main.22bf9fa3.js.map": "/static/js/main.22bf9fa3.js.map",
+    "787.75355ea0.chunk.js.map": "/static/js/787.75355ea0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4f2375a.css",
+    "static/js/main.22bf9fa3.js"
+  ]
+}

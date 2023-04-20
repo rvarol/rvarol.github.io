@@ -1,0 +1,172 @@
+$accent--lightmode: #eee;
+$primary--lightmode: #464646;
+$primary-light--lightmode: #9f9f9f;
+$primary-lighter--lightmode: #ccc;
+$shadow--lightmode: 0 8px 16px rgba(10, 10, 10, 0.1);
+
+$accent--darkmode: #152028;
+$primary--darkmode: #eeeeee;
+$primary-light--darkmode: #9f9f9f;
+$primary-lighter--darkmode: #464646;
+$shadow--darkmode: 0 8px 16px rgba(226, 226, 226, 0.1);
+
+$warning: #ffc107;
+$info: #6086b4;
+$success: #51d88a;
+$danger: #ef5753;
+
+$thumbnail-height: 15em;
+$body-max-width: 1920px;
+
+$content-ratio: 0.7;
+$sidebar-ratio: calc(1 - #{$content-ratio});
+$content-max-width: calc(#{$body-max-width} * #{$content-ratio});
+$sidebar-max-width: calc(#{$body-max-width} - #{$content-max-width});
+$content-width: calc(#{$content-ratio} * 100%);
+$sidebar-width: calc(#{$sidebar-ratio} * 100%);
+$text-direction: "ltr";
+
+$themes: (
+  light: (
+    accent: $accent--lightmode,
+    primary: $primary--lightmode,
+    primary-light: $primary-light--lightmode,
+    primary-lighter: $primary-lighter--lightmode,
+    info: $info,
+    shadow: $shadow--lightmode,
+    border: 1px solid $primary-lighter--lightmode,
+    alert: $warning,
+    success: $success,
+    warning: $warning,
+    danger: $danger,
+  ),
+  dark: (
+    accent: $accent--darkmode,
+    primary: $primary--darkmode,
+    primary-light: $primary-light--darkmode,
+    primary-lighter: $primary-lighter--darkmode,
+    info: $info,
+    shadow: $shadow--darkmode,
+    border: 1px solid $primary-lighter--darkmode,
+    alert: $warning,
+    success: $success,
+    warning: $warning,
+    danger: $danger,
+  ),
+);
+
+$theme-map: ();
+
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .theme--#{$theme} & {
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+      @content;
+      $theme-map: ();
+    }
+  }
+}
+
+@function t($key) {
+  @return map-get($theme-map, $key);
+}
+
+@mixin desktop {
+  @media screen and (min-width: 961px) {
+    @content;
+  }
+}
+
+@mixin widescreen {
+  @media screen and (min-width: 1921px) {
+    @content;
+  }
+}
+
+@mixin print {
+  @media print {
+    @content;
+  }
+}
+
+@mixin desktop_and_print {
+  @include desktop {
+    @content;
+  }
+
+  @include print {
+    @content;
+  }
+}
+
+@mixin ltr {
+  @if $text-direction == ltr {
+    @content;
+  }
+}
+
+@mixin rtl {
+  @if $text-direction == rtl {
+    @content;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  @include themed() {
+    color: t('primary');
+  }
+
+  &:hover {
+    @include themed() {
+      color: t('info');
+    }
+  }
+}
+
+blockquote {
+  padding: 0 1em;
+
+  @include themed() {
+    color: t('primary');
+
+    @include ltr {
+      border-left: t('border');
+    }
+
+    @include rtl {
+      border-right: t('border');
+    }
+  }
+}
+
+p {
+  line-height: 1.9em;
+}
+
+.body {
+  width: 100%;
+  margin: 0 auto;
+  // work around to style body
+  &.theme--dark {
+    color: $primary--darkmode;
+    //background-color: $accent--darkmode;
+  }
+  &.theme--light {
+    color: $primary--lightmode;
+    //background-color: $accent--lightmode;
+  }
+}
+
+.clear-both {
+  clear: both;
+}

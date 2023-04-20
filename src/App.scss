@@ -1,0 +1,166 @@
+@import './modules.scss';
+
+body {
+  background-color: $accent--lightmode;
+}
+
+.App {
+  text-align: center;
+  margin: 1vh 1vh 0 1vh;
+  background-color: $accent--lightmode;
+  border-radius: 0.5em;
+  border: 1px solid #ccc;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include desktop {
+    flex-direction: row;
+  }
+
+  @include widescreen {
+    justify-content: center;
+  }
+
+  &__main {
+    width: 100%;
+
+    @include desktop_and_print {
+      width: $content-width;
+    }
+
+    @include widescreen {
+      width: calc(#{$content-ratio} * 70%);
+    }
+
+    &--fullscreen {
+      margin-top: 20px;
+
+      @include desktop_and_print {
+        width: 100%;
+        margin-top: 0px;
+      }
+
+      @include widescreen {
+        width: $body-max-width;
+      }
+    }
+  }
+
+  &__sidebar {
+    width: 100%;
+    padding: 16px 0;
+
+    @include desktop_and_print {
+      width: $sidebar-width;
+      padding: 0;
+    }
+
+    @include widescreen {
+      width: calc(#{$sidebar-ratio} * 80%);
+    }
+
+    &--hidden {
+      display: none;
+    }
+  }
+}
+
+
+
+.header {
+  @include themed() {
+    background-color: t('accent');
+  }
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+
+  @include desktop {
+    position: sticky;
+
+    @include themed() {
+      border-bottom: t('border');
+    }
+  }
+
+  @include print {
+    display: none;
+  }
+}
+
+.wrapper__main {
+  height: 98vh;
+}
+
+.main-scrollable {
+  margin: 0.5em 0.5em;
+  height: calc(98vh - 1em);
+  overflow-y: scroll;
+
+  // Simple
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+  }
+  &::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+  }
+  &::-webkit-scrollbar-thumb:hover{
+  	background: rgba(0,0,0,0.4);
+  }
+  &::-webkit-scrollbar-thumb:active{
+  	background: rgba(0,0,0,.9);
+  }
+}
+
+.main-panel-container {
+  width: 80%;
+  margin: auto;
+}

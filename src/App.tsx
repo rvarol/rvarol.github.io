@@ -15,14 +15,9 @@ function App() {
         <aside className="wrapper__sidebar">
           <Sidebar tabChangeHandler={setActiveTab} />
         </aside>
+
         <div className="wrapper__main">
           <div className='main-scrollable'>
-            {/*
-            <header className="header">
-              <Navbar tabChangeHandler={setActiveTab} />
-            </header>
-            */}
-
             {getMainContent(activeTab)}
           </div>
         </div>

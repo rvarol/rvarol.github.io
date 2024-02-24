@@ -1,31 +1,53 @@
 @import '../../modules.scss';
 
-.portfolio {
-  position: relative;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  text-align: left;
+.project {
+  &__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 1em;
+  }
+
+  &__card-body {
+    padding: 1em;
+  }
 
   &__content-wrapper {
     width: 67.5%;
     float: right;
+    margin: 0 1em;
 
     h2 {
+      font-size: 1.25em;
+      text-align: left;
       margin: 0;
     }
   }
 
-  &__title {
-    letter-spacing: 1px;
-    font-size: 2.6rem;
-    line-height: 1;
-    font-weight: 600;
+  &__keywords {
+    p {
+      font-size: 0.75em;
+    }
+  }
+
+  &__description {
+    text-align: justify;
+    line-height: 1.2em !important;
+    font-size: 0.9em;
+    margin: 0.25em 0;
   }
 
   &__image {
-    width: 100%;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     box-shadow: t('shadow');
     //overflow: hidden;
     transition: box-shadow 0.3s ease;
@@ -36,7 +58,7 @@
 
     &-wrapper {
       float: left;
-      width: 30%;
+      width: 250px;
       display: block;
       position: relative;
       overflow: hidden;
@@ -56,12 +78,26 @@
         padding: 0;
       }
 
-
       @include desktop_and_print {
         margin-right: auto;
       }
-
     }
+
+  }
+}
+
+.portfolio {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+
+  &__title {
+    letter-spacing: 1px;
+    font-size: 2.6rem;
+    line-height: 1;
+    font-weight: 600;
   }
 
   &__meta {
@@ -140,4 +176,10 @@
   &::before {
     content: '#';
   }
+}
+
+
+.project-panel-container {
+  width: 96%;
+  margin: auto;
 }

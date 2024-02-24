@@ -14,11 +14,11 @@ function Sidebar(props: SidebarProps) {
       <div className="sidebar__content">
         <div className="sidebar__introduction">
           <img className="sidebar__introduction-profileimage"
-              src={ProfilePicture}
-              alt="profile"/>
-            <h1 className="sidebar__introduction-title">
-              <a href="/">Rahmetullah Varol</a>
-            </h1>
+            src={ProfilePicture}
+            alt="profile" />
+          <h1 className="sidebar__introduction-title">
+            <a href="/">Rahmetullah Varol</a>
+          </h1>
           <div className="sidebar__introduction-description">
             <p>Personal CV and portfolio</p>
           </div>
@@ -28,42 +28,42 @@ function Sidebar(props: SidebarProps) {
           </div>
         </div>
         <ul className="sidebar__list">
-          <SocialIcon/>
+          <SocialIcon />
         </ul>
 
         <ul className="sidebar__navigation-bar">
-          <li className={ activeTabIndex === 0 ? 'active' : '' }
-              onClick={() => {
-                props.tabChangeHandler('projects');
-                setActiveTabIndex(0);
-              }}>
+          <li className={activeTabIndex === 0 ? 'active' : ''}
+            onClick={() => {
+              props.tabChangeHandler('projects');
+              setActiveTabIndex(0);
+            }}>
             <FontAwesomeIcon icon={faRocket} />
             Projects
           </li>
 
-          <li className={ activeTabIndex === 1 ? 'active' : '' }
-              onClick={() => {
-                props.tabChangeHandler('publications');
-                setActiveTabIndex(1);
-              }}>
+          <li className={activeTabIndex === 1 ? 'active' : ''}
+            onClick={() => {
+              props.tabChangeHandler('publications');
+              setActiveTabIndex(1);
+            }}>
             <FontAwesomeIcon icon={faScroll} />
             Publications
           </li>
-          
-          <li className={ activeTabIndex === 2 ? 'active' : '' }
-              onClick={() => {
-                props.tabChangeHandler('experience');
-                setActiveTabIndex(2);
-              }}>
+
+          <li className={activeTabIndex === 2 ? 'active' : ''}
+            onClick={() => {
+              props.tabChangeHandler('experience');
+              setActiveTabIndex(2);
+            }}>
             <FontAwesomeIcon icon={faAward} />
             Experience
           </li>
-          
-          <li className={ activeTabIndex === 3 ? 'active' : '' }
-              onClick={() => {
-                props.tabChangeHandler('contact');
-                setActiveTabIndex(3);
-              }}>
+
+          <li className={activeTabIndex === 3 ? 'active' : ''}
+            onClick={() => {
+              props.tabChangeHandler('contact');
+              setActiveTabIndex(3);
+            }}>
             <FontAwesomeIcon icon={faContactBook} />
             Contact
           </li>
@@ -83,14 +83,14 @@ function Sidebar(props: SidebarProps) {
 
 function SocialIcon() {
   return <li className="sidebar__list-item">
-      <a href="{{ $item.url }}"
-        target="_blank"
-        rel="noopener"
-        aria-label="{{ $item.title }}"
-        title="{{ $item.title }}">
-        <i className="twitter fa-2x" aria-hidden="true"></i>
-      </a>
-    </li>
+    <a href="{{ $item.url }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="{{ $item.title }}"
+      title="{{ $item.title }}">
+      <i className="twitter fa-2x" aria-hidden="true"></i>
+    </a>
+  </li>
 }
 
 export default Sidebar;

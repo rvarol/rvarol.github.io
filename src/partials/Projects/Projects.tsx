@@ -20,7 +20,7 @@ function Projects() {
   if (activeProject == "") {
 
     return <>
-      <div className='main-panel-container'>
+      <div className='project-panel-container'>
         <h2>PROJECTS</h2>
         {
           projects.projects.map((project, index) =>
@@ -37,63 +37,26 @@ function ProjectItemPanel(props: { item: ProjectItem, handleClick: (label: strin
   const image = require('../../static/images/project_thumbs/' + props.item.image_url)
 
   return <>
-    <div className="card" onClick={() => props.handleClick(props.item.label)}>
-      <div className="card-body">
+    <div className="project__card" onClick={() => props.handleClick(props.item.label)}>
+      <div className="project__card-body">
 
         {/* PROJECT IMAGE */}
-        <div className="portfolio__image-wrapper">
-          <a href="{{ .link | safeURL }}" target="_blank" rel="noopener">
-            <img className="portfolio__image"
-              src={image}
-              alt="{{ .name | markdownify }}" />
-          </a>
+        <div className="project__image-wrapper">
+          <img className="project__image" src={image} />
         </div>
 
         {/* PROJECT DESCRIPTION */}
-        <div className="portfolio__description">
-          <div className="portfolio__content-wrapper">
-            <h2>{props.item.title}</h2>
+        <div className="project__content-wrapper">
+          <h2>{props.item.title}</h2>
 
-            {/*
-              <ul className="portfolio__meta">
-                  <li className="portfolio__meta-item">
-                    <em className="fas fa-flag-checkered"></em>
-                    <span>Status</span>
-                  </li>
-                  
-                  <li className="portfolio__meta-item">
-                    <em className="fas fa-map-marker-alt"></em>
-                    <span>Venue</span>
-                  </li>
+          <p className="project__description">{props.item.description}</p>
 
-                  <li className="portfolio__meta-item">
-                    <em className="fas fa-arrow-up"></em>
-                    <span>Start</span>
-                  </li>
-
-                  <li className="portfolio__meta-item">
-                    <em className="fas fa-arrow-down"></em>
-                    <span>End</span>
-                  </li>
-
-                  <li className="portfolio__meta-item">
-                    <em className="fas fa-at"></em>
-                    <span>Authors</span>
-                  </li>
-              </ul>
-              */}
-
-            <p>{props.item.description}</p>
-
-            <div className="seperator">
-              <p className="tag">cell stiffness</p>
-              <p className="tag">holography</p>
-              <p className="tag">acoustics</p>
-            </div>
+          <div className="project__keywords">
+            {props.item.keywords.map((value, index) => <p key={index} className="tag">{value}</p>)}
           </div>
-
-          <br className="clear-both" />
         </div>
+
+        <br className="clear-both" />
       </div>
     </div>
   </>

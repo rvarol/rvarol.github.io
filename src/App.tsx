@@ -1,35 +1,60 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.scss";
+import Sidebar from "./components/Sidebar";
+import {
+    AboutPage,
+    ContactPage,
+    ProjectsPage,
+    PublicationsPage,
+    ResumePage,
+} from "./pages";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs";
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <>
+            <main>
+                <Sidebar />
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+                <div className="main-content">
+                    <Tabs className="relative" defaultValue="about">
+                        <div className="navbar">
+                            <TabsList>
+                                <TabsTrigger value="about">About</TabsTrigger>
+                                <TabsTrigger value="resume">Resume</TabsTrigger>
+                                <TabsTrigger value="projects">
+                                    Projects
+                                </TabsTrigger>
+                                <TabsTrigger value="publications">
+                                    Publications
+                                </TabsTrigger>
+                                <TabsTrigger value="contact">
+                                    Contact
+                                </TabsTrigger>
+                            </TabsList>
+                        </div>
+
+                        <div className="float-left w-[100%]">
+                            <TabsContent value="about">
+                                <AboutPage />
+                            </TabsContent>
+                            <TabsContent value="resume">
+                                <ResumePage />
+                            </TabsContent>
+                            <TabsContent value="projects">
+                                <ProjectsPage />
+                            </TabsContent>
+                            <TabsContent value="publications">
+                                <PublicationsPage />
+                            </TabsContent>
+                            <TabsContent value="contact">
+                                <ContactPage />
+                            </TabsContent>
+                        </div>
+                    </Tabs>
+                </div>
+            </main>
+        </>
+    );
 }
 
-export default App
+export default App;

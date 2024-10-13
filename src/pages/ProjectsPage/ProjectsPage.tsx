@@ -60,11 +60,10 @@ export function ProjectsPage() {
                     </div>
 
                     <p className="block mt-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed et quam in turpis posuere aliquam. Nullam nec nunc
-                        ut dolor ultricies.
+                        {props.project.text}
                     </p>
 
+                    {/*
                     <strong className="text-2xl mt-5 block">Photos</strong>
 
                     <Carousel className="mx-20 mt-5">
@@ -82,6 +81,7 @@ export function ProjectsPage() {
                         <CarouselPrevious className="border-[1px] border-gray-500 text-gray-500 border-solid bg-transparent hover:bg-transparent hover:border-gray-200" />
                         <CarouselNext className="border-[1px] border-gray-500 text-gray-500 border-solid bg-transparent hover:bg-transparent hover:border-gray-200" />
                     </Carousel>
+                    */}
                 </div>
             </>
         );

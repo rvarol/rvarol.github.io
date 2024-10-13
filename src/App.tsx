@@ -27,9 +27,6 @@ function App() {
                                 <TabsTrigger value="publications">
                                     Publications
                                 </TabsTrigger>
-                                <TabsTrigger value="contact">
-                                    Contact
-                                </TabsTrigger>
                             </TabsList>
                         </div>
 

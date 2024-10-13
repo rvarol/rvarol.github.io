@@ -1,7 +1,6 @@
 import AcoustoHolographyImage from "../../public/images/projects/acoustoholography.png";
 import HolotomographyImage from "../../public/images/projects/holotomography.png";
 import DAPImage from "../../public/images/projects/dap.png";
-import GloveCommanderImage from "../../public/images/projects/glove.png";
 import MicroRobotImage from "../../public/images/projects/microrobot.png";
 import DroneImage from "../../public/images/projects/drone.png";
 

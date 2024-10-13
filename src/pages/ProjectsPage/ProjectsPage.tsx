@@ -4,6 +4,7 @@ import "./ProjectsPage.scss";
 
 import ProjectDetailsModal from "../../modals/ProjectDetailsModal";
 import { useState } from "react";
+/*
 import {
     Carousel,
     CarouselContent,
@@ -11,6 +12,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "../../components/ui/carousel";
+*/
 import { ArrowLeft } from "lucide-react";
 
 export function ProjectsPage() {

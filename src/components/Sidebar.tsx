@@ -76,8 +76,8 @@ export default function Sidebar() {
                         <SidebarElement
                             icon="location"
                             link="#"
-                            title="Birthday"
-                            content="Zurich, CH"
+                            title="Location"
+                            content="Munich, DE"
                         />
                     </ul>
                     <div className="separator"></div>

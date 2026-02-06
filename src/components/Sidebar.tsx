@@ -62,12 +62,6 @@ export default function Sidebar() {
                             content="rahmet@gmail.com"
                         />
                         <SidebarElement
-                            icon="phone"
-                            link="tel:+4915114699614"
-                            title="Phone"
-                            content="+49 (1511) 469-9614"
-                        />
-                        <SidebarElement
                             icon="calendar"
                             link="#"
                             title="Birthday"

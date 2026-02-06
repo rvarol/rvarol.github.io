@@ -92,13 +92,6 @@ export const ExperienceData = [
         ],
     },
     {
-        name: "Software Engineer @ Biatech Medical Devices",
-        years: "Aug 2015 - Sept 2016",
-        description: [
-            "- Development of a Programmable Logic Controller (PLC) and user interface for a spinal decompression device. Medical CE, IEC 62304 and ISO 13485 certification.",
-        ],
-    },
-    {
         name: "Internship @ Yıldız Technical University Central Laboratory",
         years: "Summer of 2015",
         description: [

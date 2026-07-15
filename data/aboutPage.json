@@ -1,0 +1,55 @@
+{
+    "aboutme": [
+        "I am a Research Assistant at Bundeswehr University Munich where I am working on developing imaging solutions for single cell analysis using holographic reconstruction and deep generative networks with a focus on clinical applications. <a href=\"biospire.ai\">Recently, we have been awarded 500k€ for our work on predicting DNA fragmentation of sperm cells.</a>",
+        "Previously, I worked on various projects particularly on the cross-section of machine learning and healthcare.",
+        "I particularly enjoy working on applications which combine machine learning and healthcare."
+    ],
+    "interests": [
+        {
+            "title": "Machine learning",
+            "description": "I have a good experience with the PyTorch framework. I have worked on developing, training and deploying relatively large models for various applications.",
+            "icon": "./assets/images/icon-ml.svg",
+            "altText": "design icon"
+        },
+        {
+            "title": "Bioimaging",
+            "description": "Previously, I worked with novel imaging techniques for single cell analysis. Particularly, with 3D cellular images.",
+            "icon": "./assets/images/icon-microscope.svg",
+            "altText": "design icon"
+        },
+        {
+            "title": "Web development",
+            "description": "The most modern and high-quality design made at a professional level.",
+            "icon": "./assets/images/icon-web.svg",
+            "altText": "design icon"
+        },
+        {
+            "title": "Research",
+            "description": "The most modern and high-quality design made at a professional level.",
+            "icon": "./assets/images/icon-research.svg",
+            "altText": "design icon"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Daniel Lewis",
+            "quote": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+            "avatar": "./assets/images/avatar-1.png"
+        },
+        {
+            "name": "Jessica Miller",
+            "quote": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+            "avatar": "./assets/images/avatar-2.png"
+        },
+        {
+            "name": "Emily Evans",
+            "quote": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+            "avatar": "./assets/images/avatar-3.png"
+        },
+        {
+            "name": "JHenry WIlliam",
+            "quote": "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+            "avatar": "./assets/images/avatar-4.png"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "publications": [
+        {
+            "link": "https://www.nature.com/articles/s41598-023-45150-y",
+            "image": "./assets/images/publication-1.webp",
+            "journal": "Scientific Reports",
+            "datetime": "Nov 6, 2023",
+            "title": "Virtual staining for pixel-wise and quantitative analysis of single cell images",
+            "description": "Accurate, automated virtual staining of unstained sperm images, revolutionizing subcellular analysis and enhancing reliability without traditional staining's biases."
+        },
+        {
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0146280622003796",
+            "image": "./images/publication-2.jpg",
+            "journal": "Current Problems in Cardiology",
+            "datetime": "Feb 1, 2023",
+            "title": "Machine learning approach on high risk treadmill exercise test to predict obstructive coronary artery disease by using P, QRS, and T waves’ features",
+            "description": "The study developed a machine learning model to improve Treadmill Exercise Test (TET) accuracy by analyzing ECG signals, reducing unnecessary invasive Coronary Angiography (CAG). Using data from 294 patients, five algorithms were trained, with the XGBoost model achieving about 80.92% accuracy. These models surpassed traditional cardiologist evaluations and could enhance non-invasive cardiac diagnostics, minimizing invasive procedures."
+        },
+        {
+            "link": "https://pubs.rsc.org/en/content/articlelanding/2023/lc/d3lc00177f",
+            "image": "./assets/images/publication-3.png",
+            "journal": "Lab on a Chip",
+            "datetime": "Apr 27, 2022",
+            "title": "On the application of hydrodynamic cavitation on a chip in cellular injury and drug delivery",
+            "description": "This study investigates the use of hydrodynamic cavitation (HC) on a chip to enhance the effectiveness of the anticancer drug Doxorubicin (DOX). By precisely controlling the cavitation process in microfluidic devices, the research demonstrated that HC can improve DOX's anticancer activity, induce various cellular injuries, and potentially increase drug delivery through enhanced cell permeability."
+        },
+        {
+            "link": "https://www.sciencedirect.com/science/article/pii/S0925400522012862",
+            "image": "./assets/images/publication-4.jpeg",
+            "journal": "Sensors and Actuators B",
+            "datetime": "Dec 12, 2022",
+            "title": "Microfluidic wound scratching platform based on an untethered microrobot with magnetic actuation",
+            "description": "This study introduces a novel method for conducting wound healing assays within a microfluidic system using an untethered magnetic microrobot. This robot, capable of being manipulated in four degrees of freedom, allows for the creation of wounds of uniform size and varying shapes in a closed system without damaging the cells or using chemicals. The findings revealed that wound shape impacts healing rates, with triangle-shaped wounds healing the slowest and plus-shaped wounds the fastest. This advancement highlights the potential for microrobots in enhancing lab-on-a-chip applications and could extend to 3D cell cultures."
+        },
+        {
+            "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/myc.13498",
+            "image": "./assets/images/publication-5.png",
+            "journal": "Mycoses",
+            "datetime": "Jul 16, 2022",
+            "title": "Deep convolutional neural networks for onychomycosis detection using microscopic images with KOH examination",
+            "description": "This study developed deep neural networks, VGG16 and InceptionV3, to automate fungi detection in microscopic images, demonstrating higher accuracy and specificity than traditional methods used by dermatologists. The models, tested against 16 dermatologists using images from patients with onychomycosis and normal nails, significantly outperformed human experts, highlighting the potential of AI in improving fungal infection diagnostics."
+        },
+        {
+            "link": "https://www.nature.com/articles/s41467-022-35075-x",
+            "image": "./assets/images/publication-6.png",
+            "journal": "Nature Communications",
+            "datetime": "Nov 29, 2022",
+            "title": "Acousto-holographic reconstruction of whole-cell stiffness maps",
+            "description": "This study introduces a novel method for conducting wound healing assays within a microfluidic system using an untethered magnetic microrobot. This robot, capable of being manipulated in four degrees of freedom, allows for the creation of wounds of uniform size and varying shapes in a closed system without damaging the cells or using chemicals. The findings revealed that wound shape impacts healing rates, with triangle-shaped wounds healing the slowest and plus-shaped wounds the fastest. This advancement highlights the potential for microrobots in enhancing lab-on-a-chip applications and could extend to 3D cell cultures."
+        },
+        {
+            "link": "https://www.mdpi.com/2077-0383/11/17/5102",
+            "image": "./assets/images/publication-7.webp",
+            "journal": "Journal of Clinical Medicine",
+            "datetime": "Aug 17, 2022",
+            "title": "MobileSkin: Classification Of Skin Lesion Images Acquired Using Mobile Phone-Attached Hand-Held Dermoscopes",
+            "description": "This study presents a dataset of dermoscopic images captured with a mobile phone-attached hand-held dermoscope and details the development of four deep learning models, with the MobileNetV2 and Xception models achieving the highest accuracy in classifying eight types of skin lesions."
+        },
+        {
+            "link": "https://asmedigitalcollection.asme.org/mechanismsrobotics/article-abstract/13/6/061005/1103439/Untethered-Microrobot-Motion-Mechanism-With",
+            "image": "./assets/images/publication-8.png",
+            "journal": "J. Mechanisms & Robotics",
+            "datetime": "May 31, 2021",
+            "title": "Untethered Microrobot Motion Mechanism With Increased Longitudinal Force",
+            "description": "This article introduces the 'KERKAN configuration' a novel method for enhancing microrobot manipulation in high-flowrate microfluidic channels using a permanent magnet-based diamagnetic levitation system. By employing a strategic arrangement of ferromagnetic magnets and pyrolytic graphite, this setup significantly improves stability and force handling, demonstrating superior performance in both experimental and simulation studies."
+        },
+        {
+            "link": "https://ieeexplore.ieee.org/abstract/document/9314083",
+            "image": "./assets/images/publication-9.png",
+            "journal": "Transactions on Mechatronics",
+            "datetime": "Jan 5, 2021",
+            "title": "Longitudinal Motion Modeling and Experimental Verification of a Microrobot Subject to Liquid Laminar Flow",
+            "description": "This article presents a novel magnetic manipulation technique that improves the positioning accuracy of a microrobot in microfluidic channels under high laminar flows up to 4.5 mL/min. Using a configuration with two ring-shaped magnets, the setup significantly enhances magnetic trapping forces, enabling the microrobot to maintain stable linear trajectories despite varying flow rates and robot speeds."
+        },
+        {
+            "link": "https://www.mdpi.com/2076-3417/10/24/9107",
+            "image": "./assets/images/publication-10.png",
+            "journal": "Applied Sciences",
+            "datetime": "Dec 20, 2020",
+            "title": "Interferometric Measurement of TGF-β Induced Epithelial-Mesenchymal Transition of Tumor Cells",
+            "description": "This paper presents a holographic imaging technique for 3D reconstruction of live cells during the epithelial-mesenchymal transition (EMT) in dynamic cell cultures, overcoming challenges posed by high-scattering mediums with a noise-reducing, high-speed algorithm. The technique demonstrated significant advantages in imaging quality and simplicity over traditional methods, providing insights into morphological changes during EMT and potential future applications in modeling cellular interactions."
+        },
+        {
+            "link": "https://www.mdpi.com/2072-666X/9/3/126",
+            "image": "./assets/images/publication-11.png",
+            "journal": "Micromachines",
+            "datetime": "Mar 14, 2018",
+            "title": "Micro-UFO (Untethered Floating Object): A Highly Accurate Microrobot Manipulation Technique",
+            "description": "This article introduces a new microrobot manipulation technique using diamagnetic levitation to achieve nano-level positional accuracy within a liquid environment, eliminating friction between the microrobot and substrate surfaces. Through finite element method (FEM) simulations and experimental validation, the technique demonstrates high precision in controlling the microrobot's movement across specified trajectories with less than 1 µm error, functioning effectively at various speeds and levitation heights without the need for strong electromagnets or bulky permanent magnets."
+        }
+    ]
+}

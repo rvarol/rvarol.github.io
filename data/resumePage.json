@@ -1,0 +1,157 @@
+{
+    "education": [
+        {
+            "name": "Ph.D. in Mechatronics Engineering @ Yıldız Technical University, Turkey",
+            "years": "2020 - current",
+            "description": [
+                "PhD Thesis Title: Holographic Cell Stiffness Mapping Using Acoustic Stimulation"
+            ]
+        },
+        {
+            "name": "M.Sc. in Computer Engineering @ Boğaziçi University, Turkey",
+            "years": "2016 - 2019",
+            "description": [
+                "MSc Thesis Title: Action Recognition in Social Robots"
+            ]
+        },
+        {
+            "name": "B.Sc. in Mechatronics Engineering @ Yıldız Technical University, Turkey",
+            "years": "2002 - 2004",
+            "description": [
+                "BSc Final Project: Unmanned Drone For Firefighting Missions"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "name": "Research Assistant @ Universität der Bundeswehr München",
+            "years": "Feb 2021 - present",
+            "description": [
+                "- Development of a holotomographic imaging system for 3D cellular imaging.",
+                "- Development of algorithms for classification, feature extraction, and DNA fragmentation prediction using 3D cellular images.",
+                "- Awarded 500.000€ funding for the development of the system by <i>Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie</i>."
+            ]
+        },
+        {
+            "name": "Researcher @ Yıldız Technical University (Project No: 116E743)",
+            "years": "Dec 2017 - Dec 2021",
+            "description": [
+                "- Design and implementation of a phase-stepping Mach-Zehnder interferometer and standing-wave acoustic trapping system.",
+                "- Experience in holographic reconstruction, super-resolution algorithms and processing of 3D cellular images.",
+                "- Development of an acousto-holographic system for the measurement of whole-cell stiffness maps."
+            ]
+        },
+        {
+            "name": "Software Engineer @ Biatech Medical Devices",
+            "years": "Aug 2015 - Sept 2016",
+            "description": [
+                "- Development of a Programmable Logic Controller (PLC) and user interface for a spinal decompression device. Medical CE, IEC 62304 and ISO 13485 certification."
+            ]
+        },
+        {
+            "name": "Internship @ Yıldız Technical University Central Laboratory",
+            "years": "Summer of 2015",
+            "description": [
+                "- Experience in PCB prototyping, CMOS circuit design, and development of embedded computer vision applications."
+            ]
+        },
+        {
+            "name": "Internship @ Tekhnelogos Software",
+            "years": "Summer of 2014",
+            "description": [
+                "- Development of 3D visualization software using OpenGL for designing and verifying natural gas installations in buildings."
+            ]
+        },
+        {
+            "name": "Student Assistant @ Yıldız Technical University Central Laboratory",
+            "years": "Oct 2012 - Jun 2013",
+            "description": [
+                "- Development of YTU Central Laboratory website and laboratory management software using ASP.NET and MySQL."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Python",
+            "level": "90%"
+        },
+        {
+            "name": "PyTorch",
+            "level": "80%"
+        },
+        {
+            "name": "C/C++",
+            "level": "60%"
+        },
+        {
+            "name": "HTML/CSS",
+            "level": "60%"
+        },
+        {
+            "name": "Javascript",
+            "level": "60%"
+        },
+        {
+            "name": "MATLAB / Simulink",
+            "level": "70%"
+        },
+        {
+            "name": "COMSOL Multiphysics",
+            "level": "50%"
+        },
+        {
+            "name": "COMSOL Multiphysics",
+            "level": "50%"
+        }
+    ],
+    "exp": [
+        {
+            "title": "Python",
+            "starCount": 5,
+            "icon": "./assets/images/skill_logos/python.svg",
+            "active": true
+        },
+        {
+            "title": "PyTorch",
+            "starCount": 5,
+            "icon": "./assets/images/skill_logos/pytorch.svg",
+            "active": true
+        },
+        {
+            "title": "Django",
+            "starCount": 4,
+            "icon": "./assets/images/skill_logos/django.svg",
+            "active": true
+        },
+        {
+            "title": "React",
+            "starCount": 4,
+            "icon": "./assets/images/skill_logos/react.svg",
+            "active": true
+        },
+        {
+            "title": "C / C++",
+            "starCount": 3,
+            "icon": "./assets/images/skill_logos/cpp.svg",
+            "active": true
+        },
+        {
+            "title": "MATLAB / Simulink",
+            "starCount": 3,
+            "icon": "./assets/images/skill_logos/matlab.svg",
+            "active": true
+        },
+        {
+            "title": "COMSOL Multiphysics",
+            "starCount": 3,
+            "icon": "./assets/images/skill_logos/comsol.svg",
+            "active": true
+        },
+        {
+            "title": "Robot Operating System",
+            "starCount": 3,
+            "icon": "./assets/images/skill_logos/ros.svg",
+            "active": true
+        }
+    ]
+}
